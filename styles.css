@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#app {
+    text-align: center;
+}
+
+ #form-container,
+#notes-container {
+    
+    
+    padding: 50px;
+    border: 5px solid #9e0000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+} 
+
+#notes-container {
+    display: none;
+   
+    
+  
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
