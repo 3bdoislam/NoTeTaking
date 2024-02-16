@@ -2,5 +2,5 @@
 
 📌 It's a simple front end project That can :
 
-save the notes in `localstorage` </br>
+Save the notes in `localstorage` </br>
 Save User credentials in `cookies`
